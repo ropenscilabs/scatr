@@ -1,0 +1,41 @@
+scatr
+=====
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+[![Build Status](https://travis-ci.org/ropenscilabs/scatr.svg?branch=master)](https://travis-ci.org/ropenscilabs/scatr)
+
+Scholastic Commentaries and Texts Archive - <http://scta.info/>
+
+## Install
+
+Development version
+
+```{r eval=FALSE}
+devtools::install_github("ropenscilabs/scatr")
+```
+
+```{r}
+library("scatr")
+```
+
+## xxx
+
+```{r}
+res <- scta_search(q = 'potentia')
+res$resources
+```
+
+## Meta
+
+* Please [report any issues or bugs](https://github.com/ropenscilabs/scatr/issues).
+* License: MIT
+* Get citation information for `scatr` in R doing `citation(package = 'scatr')`
+* Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
