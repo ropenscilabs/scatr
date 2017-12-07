@@ -25,4 +25,3 @@ res$`next`
 res$`@context`
 }
 }
-

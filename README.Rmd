@@ -1,5 +1,5 @@
-scatr
-=====
+scatrr
+======
 
 ```{r echo=FALSE}
 knitr::opts_chunk$set(
@@ -10,32 +10,15 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Build Status](https://travis-ci.org/ropenscilabs/scatr.svg?branch=master)](https://travis-ci.org/ropenscilabs/scatr)
+[![Build Status](https://travis-ci.org/ropenscilabs/scatrr.svg?branch=master)](https://travis-ci.org/ropenscilabs/scatrr)
 
 Scholastic Commentaries and Texts Archive - <http://scta.info/>
 
-## Install
-
-Development version
-
-```{r eval=FALSE}
-devtools::install_github("ropenscilabs/scatr")
-```
-
-```{r}
-library("scatr")
-```
-
-## xxx
-
-```{r}
-res <- scta_search(q = 'potentia')
-res$resources
-```
+NOT WORKING RIGHT NOW
 
 ## Meta
 
-* Please [report any issues or bugs](https://github.com/ropenscilabs/scatr/issues).
+* Please [report any issues or bugs](https://github.com/ropenscilabs/scatrr/issues).
 * License: MIT
-* Get citation information for `scatr` in R doing `citation(package = 'scatr')`
+* Get citation information for `scatr` in R doing `citation(package = 'scatrr')`
 * Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.

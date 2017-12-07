@@ -2,8 +2,8 @@
 #'
 #' @import crul
 #' @importFrom jsonlite fromJSON
-#' @name scatr-package
-#' @aliases scatr
+#' @name scatrr-package
+#' @aliases scatrr
 #' @docType package
 #' @author Scott Chamberlain \email{myrmecocystus@@gmail.com}
 #' @keywords package

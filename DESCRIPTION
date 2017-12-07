@@ -1,4 +1,4 @@
-Package: scatr
+Package: scatrr
 Type: Package
 Title: Scholastic Commentaries and Texts Archive Client
 Description: Scholastic Commentaries and Texts Archive (<http://scta.info/>) 
@@ -7,11 +7,9 @@ Version: 0.0.1.9000
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
-URL: https://github.com/ropenscilabs/scatr
-BugReports: https://github.com/ropenscilabs/scatr/issues
+URL: https://github.com/ropenscilabs/scatrr
+BugReports: https://github.com/ropenscilabs/scatrr/issues
 Imports:
-    crul (>= 0.1.0),
-    jsonlite (>= 1.1)
-Suggests:
-    roxygen2 (>= 5.0.1)
-RoxygenNote: 5.0.1
+    crul (>= 0.4.0),
+    jsonlite (>= 1.5)
+RoxygenNote: 6.0.1
